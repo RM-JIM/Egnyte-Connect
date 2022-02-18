@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import os
 
-current_os = os.system("sw_vers -productVersion")
 min_os = 10.15
+current_os = os.system("sw_vers -productVersion")
 
 if current_os >= min_os:
     print("Current installed OS is newer than Mojave, so is compatible for install")
