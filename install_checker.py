@@ -2,7 +2,7 @@
 import os
 import platform
 
-min_os = 10.15
+min_os = '10.15'
 installed_os = str(os.system("sw_vers -productVersion"))
 running_ver = platform.mac_ver()[0]
 
